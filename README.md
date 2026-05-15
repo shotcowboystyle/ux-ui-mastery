@@ -1,6 +1,6 @@
 # UX/UI Mastery Plugin for Claude Code
 
-### The most comprehensive UX/UI design intelligence ever built for an AI coding assistant.
+### The most comprehensive UX/UI design intelligence ever built for an AI coding assistant
 
 **v3.0.0** | 19 Skills | 55 References | 10 Commands | 310,000+ Words | 87 Files
 
@@ -48,13 +48,14 @@ This plugin gives Claude Code the equivalent of a senior UX designer's entire ca
 This is the standard way to install Claude Code plugins. Run these commands **inside a Claude Code session**:
 
 ```
-/plugin marketplace add phazurlabs/ux-ui-mastery
+/plugin marketplace add shotcowboystyle/ux-ui-mastery
 /plugin install ux-ui-mastery@ux-ui-mastery-marketplace
 ```
 
 That's it. The plugin is now permanently installed and available in every session.
 
 To choose installation scope:
+
 - **User scope** (all projects): Plugin is registered in `~/.claude/settings.json`
 - **Project scope** (team-shared): Plugin is registered in `.claude/settings.json` in your project
 - **Local scope** (personal, gitignored): Plugin is registered in `.claude/settings.local.json`
@@ -66,7 +67,7 @@ To choose installation scope:
 Clone the repo anywhere, then load it with the `--plugin-dir` flag:
 
 ```bash
-git clone https://github.com/phazurlabs/ux-ui-mastery.git
+git clone https://github.com/shotcowboystyle/ux-ui-mastery.git
 claude --plugin-dir ./ux-ui-mastery
 ```
 
@@ -81,7 +82,7 @@ This loads the plugin for that session only. Great for testing or development.
 ```bash
 mkdir -p ~/.claude/plugins
 cd ~/.claude/plugins
-git clone https://github.com/phazurlabs/ux-ui-mastery.git
+git clone https://github.com/shotcowboystyle/ux-ui-mastery.git
 ```
 
 **Step 2:** Register the plugin in your Claude Code settings. Edit `~/.claude/settings.json`:

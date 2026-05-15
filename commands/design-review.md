@@ -1,7 +1,5 @@
 ---
-name: design-review
 description: Comprehensive design review scoring a UI across all 10 skill domains with detailed feedback and improvement roadmap.
-user_invocable: true
 ---
 
 # Design Review Command
